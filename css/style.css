@@ -1,0 +1,90 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background: url(../img/earth.jpg) 50% 50% no-repeat;
+    z-index: -100;
+}
+
+#particles-js {
+	height: 100vh; 
+	width: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
+.title{
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    width: 500px;
+    height: 500px;
+    padding: 20px 30px 20px 30px;
+    position: absolute;
+    z-index: 99;
+    background: rgba(0,0,0,0.7);
+    border-radius: 50%;
+}
+.title h1{
+    top: 40%;
+    left: 50%;
+    transform: translateY(-40%) translateX(-50%);
+    position: absolute;
+    padding: 0px 5px 0px 5px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Teko', sans-serif;
+}
+.btn1{
+    width: 150px;
+    height: 50px;
+    top: 60%;
+    left: 35%;
+    transform: translateY(-50%) translateX(-60%);
+    border-radius: 10px;
+    position: absolute;
+    padding: 0px 5px 0px 5px;
+    text-align: center;
+    color: #E74C3C;
+    background: transparent;
+    border: solid 2px #E74C3C;
+    font-family: 'Teko', sans-serif;
+    font-size: 20px;
+}
+.btn1:hover{
+    background: #E74C3C;
+    border: 0;
+    transition: 1s;
+    color: #fff;
+    cursor: pointer;
+}
+.btn2{
+    width: 150px;
+    height: 50px;
+    top: 60%;
+    left: 70%;
+    transform: translateY(-50%) translateX(-60%);
+    border-radius: 10px;
+    position: absolute;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Teko', sans-serif;
+    color: #fff ;
+    background: #E74C3C;
+    border: solid 0;
+}
+.btn2:hover{
+    background: transparent;
+    border: solid 2px #E74C3C;
+    transition: 1s;
+    color: #fff;
+    cursor: pointer;
+}
+
